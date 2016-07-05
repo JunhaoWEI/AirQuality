@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="5dp"
+              android:background="@drawable/bg_saved_quality"
+              android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间："/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-06-29 16:00"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AQI："/>
+
+            <TextView
+                android:id="@+id/tv_AQI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20度"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空气质量："/>
+
+            <TextView
+                android:id="@+id/tv_quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20度"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
